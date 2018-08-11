@@ -1,0 +1,608 @@
+<Document name="资格条件要求-继电-保护+安稳2018年第六批次" type="保护" guid="{953526CA-5F93-4CA4-988F-286446A265FF}" status="2" time="2016-11-10-09-06-" timef="2018-06-07-09-22-">
+	<QualiClaimSheet name="资格条件要求-继电-保护+安稳2018年第六批次" type="保护" time="2018-06-11-15-03-">
+		<rules>
+			<rule rule_name="否决原因优先级" rule_decribe="将“无有效试验报告”设置为“建议否决原因类型”的最高优先级" rule_use="0" />
+			<rule rule_name="保护和智能变电站保护业绩通算" rule_decribe="资质模板-业绩要求中填写的小类名称不包括“智能变电站”时，在一纸小类中模糊查询该小类名称，加上模板中的业绩特征项的要求，计算相应业绩；资质模板中填写的“智能变电站XXX”时，首先将“智能变电站”五个字去除，再到一纸小类中模糊查询“XXX”，加上模板中的业绩特征项的要求，计算相应业绩；即在进行业绩计算时“智能变电站”和“非智能变电站”的相同货物业绩通算；" rule_use="1" />
+			<rule rule_name="断路器和短引线保护业绩通算" rule_decribe="“断路器保护”、“短引线保护”、“智能变电站断路器保护”“智能变电站短引线保护”四类物资的业绩通算；且在资质填报页面该四类物资的业绩数量显示的时候要合并单元格。编写模板业绩要求时，小类名称填写为“断路器和短引线保护业绩通算”" rule_use="1" />
+			<rule rule_name="变压器保护和电抗器保护业绩通算" rule_decribe="220kV-750kV之间的“变压器保护”、“电抗器保护”、“智能变电站变压器保护”“智能变电站电抗器保护”四类物资的相同电压等级业绩通算；且在资质填报页面该四类物资的业绩数量显示的时候要合并单元格。编写模板业绩要求时，小类名称填写为“变压器保护和电抗器保护业绩通算”" rule_use="1" />
+		</rules>
+		<infos>
+			<info info_name="供货业绩" info_case="" info_auto="1" />
+			<info info_name="专业检测" info_case="" info_auto="0" />
+			<info info_name="动模试验" info_case="" info_auto="0" />
+			<info info_name="型式试验" info_case="" info_auto="0" />
+			<info info_name="型式试验" info_case="静模试验" info_auto="0" />
+			<info info_name="认证证书" info_case="ISO9000" info_auto="0" />
+		</infos>
+		<tnum>
+			<专业检测 tnum_value="5" />
+			<供货业绩 tnum_value="2" />
+			<动模试验 tnum_value="5" />
+			<型式试验 tnum_value="5" />
+			<型式试验专业检测 tnum_value="5" />
+			<型式试验动模试验 tnum_value="5" />
+			<型式试验静模试验 tnum_value="5" />
+			<认证证书1ISO9000 tnum_value="4" />
+			<认证证书ISO9000 tnum_value="4" />
+		</tnum>
+		<cargos>
+			<cargo cargo_name="三端光差" cargo_achi="线路电压等级&gt;=35kV：5套" cargo_rept="型式试验；动模试验" cargo_type="在货物清单中" />
+			<cargo cargo_name="模块化变电站前接线保护" cargo_achi="线路电压等级&gt;=35kV：1套；110（66）kV线路保护、110（66）kV母线（差动）保护、110（66）kV母联（分段）充电保护、35-110kV主变保护的业绩要求" cargo_rept="型式试验；110（66）kV线路保护、110（66）kV母线（差动）保护、110（66）kV母联（分段）充电保护、35-110kV主变保护的试验报告" cargo_type="未在货物清单中" />
+		</cargos>
+		<AchiClaim beginYear="2013" endYear="2017" tableNum="0" numrCert="1" unit="套" AchiComment="">
+			<CargoFeatures>
+				<电压等级 />
+			</CargoFeatures>
+			<AchiFeatures>
+				<电压等级 />
+			</AchiFeatures>
+			<rows>
+				<row index="1" key="线路保护" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="2" key="线路保护" 电压等级CF="=750kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="30.000000" disDemand="30.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="3" key="智能变电站线路保护" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="4" key="智能变电站线路保护" 电压等级CF="=750kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="30.000000" disDemand="30.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="5" key="线路保护" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="6" key="线路保护" 电压等级CF="=500kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="30.000000" disDemand="30.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="7" key="智能变电站线路保护" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="8" key="智能变电站线路保护" 电压等级CF="=500kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="30.000000" disDemand="30.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="9" key="线路保护" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="10" key="智能变电站线路保护" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="11" key="线路保护" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="12" key="智能变电站线路保护" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="13" key="线路保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="" />
+				<row index="14" key="智能变电站线路保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="" />
+				<row index="15" key="线路保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="线路电压等级&gt;=110kV" />
+				<row index="16" key="智能变电站线路保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="线路电压等级&gt;=110kV" />
+				<row index="17" key="母线保护" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="18" key="母线保护" 电压等级CF="=750kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="19" key="智能变电站母线保护" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="20" key="智能变电站母线保护" 电压等级CF="=750kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="21" key="母线保护" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="22" key="母线保护" 电压等级CF="=500kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="23" key="智能变电站母线保护" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="5.000000" disDemand="5.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="24" key="智能变电站母线保护" 电压等级CF="=500kV" cond="条件2" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" relati="or" rCert="ISO9000" condRemark="" />
+				<row index="25" key="母联（分段）保护" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="" />
+				<row index="26" key="智能变电站母联（分段）保护" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="" />
+				<row index="27" key="母联（分段）保护" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="" />
+				<row index="28" key="智能变电站母联（分段）保护" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="" />
+				<row index="29" key="母线保护" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=220kV" />
+				<row index="30" key="智能变电站母线保护" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=220kV" />
+				<row index="31" key="母线保护" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="32" key="智能变电站母线保护" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="33" key="母联（分段）保护" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=220kV" />
+				<row index="34" key="智能变电站母联（分段）保护" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=220kV" />
+				<row index="35" key="母联（分段）保护" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="" />
+				<row index="36" key="智能变电站母联（分段）保护" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="" />
+				<row index="37" key="母线保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="38" key="智能变电站母线保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="39" key="母线保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=110kV" />
+				<row index="40" key="智能变电站母线保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=110kV" />
+				<row index="41" key="母联（分段）保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="2.000000" disDemand="2.000000" rCert="ISO9000" condRemark="" />
+				<row index="42" key="智能变电站母联（分段）保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="2.000000" disDemand="2.000000" rCert="ISO9000" condRemark="" />
+				<row index="43" key="母联（分段）保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="2.000000" disDemand="2.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=110kV" />
+				<row index="44" key="智能变电站母联（分段）保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="2.000000" disDemand="2.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=110kV" />
+				<row index="45" key="变压器保护和电抗器保护业绩通算" 电压等级CF="=750kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="46" key="变压器保护和电抗器保护业绩通算" 电压等级CF="=500kV" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="47" key="变压器保护和电抗器保护业绩通算" 电压等级CF="=330kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="主变电压等级&gt;=220kV" />
+				<row index="48" key="变压器保护和电抗器保护业绩通算" 电压等级CF="=220kV" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="49" key="变压器保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="" />
+				<row index="50" key="智能变电站变压器保护" 电压等级CF="=110kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="" />
+				<row index="51" key="变压器保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="主变电压等级≥110kV" />
+				<row index="52" key="智能变电站变压器保护" 电压等级CF="=66kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="主变电压等级≥110kV" />
+				<row index="53" key="变压器保护" 电压等级CF="=35kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="主变电压等级≥110kV" />
+				<row index="54" key="智能变电站变压器保护" 电压等级CF="=35kV" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="40.000000" disDemand="40.000000" rCert="ISO9000" condRemark="主变电压等级≥110kV" />
+				<row index="55" key="断路器和短引线保护业绩通算" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=220kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="母线电压等级&gt;=220kV" />
+				<row index="56" key="备用设备及备用电源自动投入" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=35kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="母线电压等级≥35kV" />
+				<row index="57" key="智能变电站备用设备及备用电源自动投入" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=35kV" dstIdx="0" dstKey="" disdstIdx="0" demand="4.000000" disDemand="4.000000" rCert="ISO9000" condRemark="母线电压等级≥35kV" />
+				<row index="58" key="减载装置" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="59" key="智能变电站减载装置" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=110kV" dstIdx="0" dstKey="" disdstIdx="0" demand="20.000000" disDemand="20.000000" rCert="ISO9000" condRemark="" />
+				<row index="60" key="稳定控制装置" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="61" key="智能变电站稳定控制装置" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=500kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="62" key="解列装置" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=66kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+				<row index="63" key="智能变电站解列装置" 电压等级CF="不做判断" cond="条件1" 电压等级AF="&gt;=66kV" dstIdx="0" dstKey="" disdstIdx="0" demand="10.000000" disDemand="10.000000" rCert="ISO9000" condRemark="" />
+			</rows>
+		</AchiClaim>
+		<ReptClaim table_num="0" comment="" test_count="1，0，0，">
+			<cg>
+				<feature>电压等级</feature>
+			</cg>
+			<results>
+				<result ret_rept="专业检测" ret_name="静模试验" ret_logic="1" ret_des="1" ret_match="0" ret_sat="0" />
+			</results>
+			<rows>
+				<row idx="1" key="线路保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="2" key="智能变电站线路保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="3" key="线路保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="4" key="智能变电站线路保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="5" key="线路保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="6" key="智能变电站线路保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="7" key="线路保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="8" key="智能变电站线路保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="9" key="线路保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="10" key="智能变电站线路保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="11" key="线路保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="12" key="智能变电站线路保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="13" key="母线保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="14" key="智能变电站母线保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="15" key="母线保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="16" key="智能变电站母线保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="17" key="母线保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="18" key="智能变电站母线保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="19" key="母线保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="20" key="智能变电站母线保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="21" key="母线保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="22" key="智能变电站母线保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="23" key="母线保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="24" key="智能变电站母线保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="25" key="母联（分段）保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="26" key="智能变电站母联（分段）保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="27" key="母联（分段）保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="28" key="智能变电站母联（分段）保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="29" key="母联（分段）保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="30" key="智能变电站母联（分段）保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="31" key="母联（分段）保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="32" key="智能变电站母联（分段）保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="33" key="母联（分段）保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="静模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="34" key="智能变电站母联（分段）保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="静模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="35" key="母联（分段）保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="静模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="36" key="智能变电站母联（分段）保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="静模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="37" key="变压器保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="38" key="智能变电站变压器保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="39" key="变压器保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="40" key="智能变电站变压器保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="41" key="变压器保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="42" key="智能变电站变压器保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="43" key="变压器保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="44" key="智能变电站变压器保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="45" key="变压器保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="46" key="智能变电站变压器保护" 电压等级="=110kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="47" key="变压器保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="48" key="智能变电站变压器保护" 电压等级="=66kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="49" key="变压器保护" 电压等级="=35kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="50" key="智能变电站变压器保护" 电压等级="=35kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="51" key="电抗器保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="52" key="智能变电站电抗器保护" 电压等级="=750kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="53" key="电抗器保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="54" key="智能变电站电抗器保护" 电压等级="=500kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="55" key="电抗器保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="56" key="智能变电站电抗器保护" 电压等级="=330kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="57" key="电抗器保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="58" key="智能变电站电抗器保护" 电压等级="=220kV" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="动模试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="59" key="断路器保护" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="60" key="智能变电站断路器保护" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="专业检测" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="61" key="短引线保护" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="62" key="智能变电站短引线保护" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="63" key="备用设备及备用电源自动投入" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="64" key="智能变电站备用设备及备用电源自动投入" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="65" key="减载装置" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="66" key="智能变电站减载装置" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="67" key="稳定控制装置" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="68" key="智能变电站稳定控制装置" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="69" key="解列装置" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+				<row idx="70" key="智能变电站解列装置" 电压等级="不做判断" con="条件1" dst_idx="0" dst_key="" conremark="">
+					<report rtst_name="型式试验" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="">
+						<case rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					</report>
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+					<report rtst_name="" rtst_tzx="" rtst_logic="" rtst_val="" rtst_rule="" />
+				</row>
+			</rows>
+		</ReptClaim>
+		<QMSClaim>ISO9000</QMSClaim>
+		<XKClaim />
+	</QualiClaimSheet>
+</Document>
